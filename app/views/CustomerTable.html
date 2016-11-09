@@ -1,0 +1,14 @@
+<table id="tblCustomers" class="table table-hover">
+  <tr class="table table-hover">
+    <th>Customer ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Phone Number</th>
+  </tr>
+  <tr ng-repeat="cust in customers">
+    <td>{{cust.customerId}}</td>
+    <td>{{cust.firstName}}</td>
+    <td>{{cust.lastName}}</td>
+    <td>{{cust.phoneNumber}}</td>
+  </tr>
+</table>
